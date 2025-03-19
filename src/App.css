@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .App-logo {
@@ -34,5 +35,18 @@
   }
   to {
     transform: rotate(360deg);
+  }
+
+  /* App.css */
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    background-color: #f0f0f0;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
   }
 }
